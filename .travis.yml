@@ -1,5 +1,4 @@
 language: csharp
 solution: MHG.sln
 install:
-  - sudo apt-get install -y gtk-sharp2
   - nuget restore MHG.sln
