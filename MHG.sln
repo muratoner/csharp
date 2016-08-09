@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Windows.Event.Viewer", "MHG.Windows.Event.Viewer\MHG.Windows.Event.Viewer.csproj", "{A237300D-3043-4516-9A30-C52011250C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Process", "MHG.Process\MHG.Process.csproj", "{58AE08A0-3EF6-4ECE-8B84-7B4A01E6051A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A237300D-3043-4516-9A30-C52011250C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A237300D-3043-4516-9A30-C52011250C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A237300D-3043-4516-9A30-C52011250C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58AE08A0-3EF6-4ECE-8B84-7B4A01E6051A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58AE08A0-3EF6-4ECE-8B84-7B4A01E6051A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58AE08A0-3EF6-4ECE-8B84-7B4A01E6051A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58AE08A0-3EF6-4ECE-8B84-7B4A01E6051A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
