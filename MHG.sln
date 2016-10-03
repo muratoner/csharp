@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Windows.Event.Viewer", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Process", "MHG.Process\MHG.Process.csproj", "{58AE08A0-3EF6-4ECE-8B84-7B4A01E6051A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.CustomAttribute", "MHG.CustomAttribute\MHG.CustomAttribute.csproj", "{A46D722E-0ACC-4E13-8890-655E8CF4168C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{58AE08A0-3EF6-4ECE-8B84-7B4A01E6051A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58AE08A0-3EF6-4ECE-8B84-7B4A01E6051A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58AE08A0-3EF6-4ECE-8B84-7B4A01E6051A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46D722E-0ACC-4E13-8890-655E8CF4168C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46D722E-0ACC-4E13-8890-655E8CF4168C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46D722E-0ACC-4E13-8890-655E8CF4168C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46D722E-0ACC-4E13-8890-655E8CF4168C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
