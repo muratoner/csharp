@@ -1,6 +1,5 @@
 ﻿using System;
 using WatiN.Core;
-using WatiN.Core.Native;
 
 namespace MHG.Library.WatIn
 {
