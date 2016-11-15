@@ -1,32 +1,24 @@
-﻿using System.Net;
-using System.Net.Mail;
+﻿namespace MHG.Mail.Smtp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string host = "smtp.muratoner.net";
+            string userName = "muratoner.net";
+            string password = "muratoner.net";
+            bool ssl = false;
+            int port = 587; //Default SMTP Ports 587, 465, 25.
+            string body = "Test mail body sample";
+            string subject = "Test mail subject";
+            string from = "from@muratoner.net";
+            string to = "to@muratoner.net";
 
-namespace MHG.Mail.Smtp {
-    class Program {
-        static void Main( string[] args ) {
-            try {
-                var client = new SmtpClient();
-                client.Host = "[Host Address]";
-                client.Port = 587; //Default SMTP Ports 587, 465, 25.
-                client.Timeout = 5000; //Default timeout very long then write 5 second.
-                client.Credentials = new NetworkCredential( "[Username]", "[Password]" );
-                client.EnableSsl = false;
-
-                var mailMessage = new MailMessage();
-                mailMessage.Body = "[Message Body]";
-                mailMessage.IsBodyHtml = true;
-                mailMessage.Subject = "[Subject]";
-                mailMessage.From = new MailAddress( "[Sender User Mail Address]" );
-
-                //Sended User Mail Address
-                mailMessage.To.Add( "[Sended User Mail Address]" );
-                mailMessage.To.Add( "[Sended User Mail Address]" );
-                mailMessage.To.Add( "[Sended User Mail Address]" );
-
-                client.Send( mailMessage );
-            } catch ( System.Exception ex ) {
-                System.Console.Write( ex.Message );
-            }
+            // Basic Smtp Client Sample
+            //BasitSmtp.Send(host, userName, password, ssl, port, body, subject, from, to);
+            // Attach Image and Use In Body
+            body = "Test mail body sample with attach image <img src='cid:myImageID' />";
+            AttachImageBodySample.Send(host, userName, password, ssl, port, body, subject, from, to);
         }
     }
 }
