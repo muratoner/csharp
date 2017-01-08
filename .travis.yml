@@ -1,5 +1,6 @@
 language: csharp
+mono:
+  - latest
 solution: MHG.sln
 install:
-  - nuget update -self
   - nuget restore MHG.sln
