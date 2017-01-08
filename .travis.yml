@@ -1,5 +1,5 @@
 language: csharp
 solution: MHG.sln
 install:
-  - nuget update
+  - nuget update -self
   - nuget restore MHG.sln
