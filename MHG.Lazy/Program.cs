@@ -1,4 +1,6 @@
-﻿namespace MHG.Lazy {
+﻿using System;
+
+namespace MHG.Lazy {
     public class Program {
         public static void Main()
         {

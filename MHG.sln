@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Repository", "MHG.Repos
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Lazy", "MHG.Lazy\MHG.Lazy.csproj", "{12D24D7D-42A8-498B-B077-DE4304566179}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Mapper", "MHG.Mapper\MHG.Mapper.csproj", "{56AE248E-61C0-4455-9E07-8C175AE24C40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{12D24D7D-42A8-498B-B077-DE4304566179}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D24D7D-42A8-498B-B077-DE4304566179}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D24D7D-42A8-498B-B077-DE4304566179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56AE248E-61C0-4455-9E07-8C175AE24C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56AE248E-61C0-4455-9E07-8C175AE24C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56AE248E-61C0-4455-9E07-8C175AE24C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56AE248E-61C0-4455-9E07-8C175AE24C40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
