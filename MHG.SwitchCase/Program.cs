@@ -58,8 +58,8 @@ namespace MHG.SwitchCase
             #endregion
 
             #region Sample 2
-            int number = 1;
-            switch (number)
+            int number2 = 1;
+            switch (number2)
             {
                 case 1:
                     Console.WriteLine("Durum 1");
