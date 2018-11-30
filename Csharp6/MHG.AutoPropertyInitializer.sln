@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.AutoPropertyInitializer", "MHG.AutoPropertyInitializer\MHG.AutoPropertyInitializer.csproj", "{2FAF79CD-9375-4BA5-8C16-D29C84D9D6A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.PrimaryConstructors", "MHG.PrimaryConstructors\MHG.PrimaryConstructors.csproj", "{FAACFD1C-34CC-4223-AD9F-2B931E069140}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FAF79CD-9375-4BA5-8C16-D29C84D9D6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAF79CD-9375-4BA5-8C16-D29C84D9D6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAF79CD-9375-4BA5-8C16-D29C84D9D6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAF79CD-9375-4BA5-8C16-D29C84D9D6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAACFD1C-34CC-4223-AD9F-2B931E069140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAACFD1C-34CC-4223-AD9F-2B931E069140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAACFD1C-34CC-4223-AD9F-2B931E069140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAACFD1C-34CC-4223-AD9F-2B931E069140}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
