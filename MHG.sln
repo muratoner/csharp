@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Mapper", "MHG.Mapper\MH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.AbstractInterfaceDifferent", "MHG.AbstractInterfaceDifferent\MHG.AbstractInterfaceDifferent.csproj", "{135399E5-ACF6-4978-8A3E-944972936104}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Selenium.Mobile", "MHG.Selenium.Mobile\MHG.Selenium.Mobile.csproj", "{46625CC4-97FB-41A5-A075-4EA60389E6CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{135399E5-ACF6-4978-8A3E-944972936104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{135399E5-ACF6-4978-8A3E-944972936104}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{135399E5-ACF6-4978-8A3E-944972936104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46625CC4-97FB-41A5-A075-4EA60389E6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46625CC4-97FB-41A5-A075-4EA60389E6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46625CC4-97FB-41A5-A075-4EA60389E6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46625CC4-97FB-41A5-A075-4EA60389E6CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
