@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28407.52
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Windows.Event.Viewer", "MHG.Windows.Event.Viewer\MHG.Windows.Event.Viewer.csproj", "{A237300D-3043-4516-9A30-C52011250C62}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.AbstractInterfaceDifferent", "MHG.AbstractInterfaceDifferent\MHG.AbstractInterfaceDifferent.csproj", "{135399E5-ACF6-4978-8A3E-944972936104}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.Selenium.Mobile", "MHG.Selenium.Mobile\MHG.Selenium.Mobile.csproj", "{46625CC4-97FB-41A5-A075-4EA60389E6CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MHG.ImageProcess", "MHG.ImageProcess\MHG.ImageProcess.csproj", "{E39D6693-DEF5-48CB-A930-F04E1FEF8E7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{46625CC4-97FB-41A5-A075-4EA60389E6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46625CC4-97FB-41A5-A075-4EA60389E6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46625CC4-97FB-41A5-A075-4EA60389E6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E39D6693-DEF5-48CB-A930-F04E1FEF8E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E39D6693-DEF5-48CB-A930-F04E1FEF8E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E39D6693-DEF5-48CB-A930-F04E1FEF8E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E39D6693-DEF5-48CB-A930-F04E1FEF8E7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
