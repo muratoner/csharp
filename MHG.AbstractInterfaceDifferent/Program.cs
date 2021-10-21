@@ -24,9 +24,9 @@ namespace MHG.AbstractInterfaceDifferent
             Console.WriteLine($"NameWithDescription Abstract: {nameWithDescriptionAbstract}");
 
             // IPerson adlı arayüzden türettiğimiz EmployeeInterface adlı sınıfı artık new anahtar kelimesi ile nesne örneği alabiliyoruz.
-            var resInterface = new EmployeeAbstract { Name = "Sakine ÖNER" };
-            var nameInterface = resAbstract.GetName();
-            var nameWithDescriptionInterface = resAbstract.GetNameWithDesciption();
+            var resInterface = new EmployeeInterface { Name = "Sakine ÖNER" };
+            var nameInterface = resInterface.GetName();
+            var nameWithDescriptionInterface = resInterface.GetNameWithDesciption();
 
             Console.WriteLine($"Name Interface: {nameInterface}");
             Console.WriteLine($"NameWithDescription Interface: {nameWithDescriptionInterface}");
